@@ -1,0 +1,520 @@
+{
+  "business": {
+    "name": "Legacy Demolition",
+    "phone": "555-dem-rq18",
+    "category": "demolition",
+    "city": "Houston",
+    "state": "TX"
+  },
+  "design": {
+    "preset": {
+      "id": "demolition-heritage-craft",
+      "categoryGroup": "demolition",
+      "name": "Heritage Craft",
+      "recipeFile": "demolition/heritage-craft.astro",
+      "colors": {
+        "primary": "#8B4513",
+        "primaryDark": "#53290b",
+        "primaryLight": "#d6beac",
+        "secondary": "#763b10",
+        "accent": "#8B4513",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#763b10",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "demolition/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Houston Demolition Done Right",
+      "heroSubline": "Precision demolition for Texas' toughest projects. Serving Houston since 2012 with locally proven methods.",
+      "aboutTitle": "Built on Houston Grit",
+      "aboutText": [
+        "Legacy Demolition started with one truck and a commitment to honest work. Twelve years later, we've torn down everything from Montrose bungalows to Katy McMansions.",
+        "We don't just knock things down—we plan every job for Houston's unique conditions. Humid summers demand careful material handling, and flood risks require strategic debris management.",
+        "When hurricanes hit Houston, we're first on site clearing storm damage. Our team lives here, works here, and rebuilds here."
+      ],
+      "valueProps": [
+        {
+          "title": "Local Know-How",
+          "description": "We understand Houston's soil conditions, building codes, and weather challenges better than out-of-town crews."
+        },
+        {
+          "title": "No Hidden Costs",
+          "description": "Fixed-price quotes include Houston's 7.25% sales tax and disposal fees—no surprises when the bill comes."
+        },
+        {
+          "title": "Storm-Ready",
+          "description": "24/7 emergency response when hurricanes flood Houston homes. We've cleared 200+ storm-damaged properties since 2017."
+        },
+        {
+          "title": "Debris Accountability",
+          "description": "Every load tracked to approved Houston-area landfills. No illegal dumping in our city."
+        }
+      ],
+      "ctaHeadline": "Need Space Cleared Today?",
+      "ctaSubline": "Call 555-DEM-RQ18 for same-day Houston demolition estimates."
+    },
+    "services": [
+      {
+        "slug": "residential-demolition",
+        "name": "Residential Demolition",
+        "shortDescription": "Complete home teardowns with Houston-approved disposal.",
+        "description": "From aging Heights bungalows to flood-damaged Pearland homes, we handle full residential demolitions the Houston way.\n\nHouston's clay soil requires specialized foundation removal—we excavate 18\" deeper than code to prevent future settling. Summer humidity warps materials unpredictably; our crews secure unstable structures before demolition begins.\n\nEvery job includes asbestos testing (common in 1970s Houston builds) and proper disposal at Harris County-approved facilities. We salvage reusable materials for local Habitat for Humanity projects.",
+        "process": [
+          "Step 1: Houston-specific site survey (checks for flood zone rules, overhead wires, clay soil conditions)",
+          "Step 2: Permitting (we handle all City of Houston paperwork)",
+          "Step 3: Utility disconnection by licensed Houston providers",
+          "Step 4: Demolition with debris sorted for recycling"
+        ],
+        "benefits": [
+          "Clay soil expertise prevents future property issues",
+          "Full compliance with Houston floodplain regulations",
+          "Salvage program reduces landfill fees",
+          "No surprise costs—Houston taxes included upfront"
+        ],
+        "faq": [
+          {
+            "question": "How long does a Houston home demolition take?",
+            "answer": "Most single-family homes take 2-3 days. Add 1 day for homes in flood zones requiring special debris handling per Harris County rules."
+          },
+          {
+            "question": "Do you handle asbestos in older Houston homes?",
+            "answer": "Yes—we test all pre-1980 structures and use licensed Houston abatement crews when needed. This is included in your quote."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-demolition",
+        "name": "Commercial Demolition",
+        "shortDescription": "Strip-outs and full teardowns for Houston businesses.",
+        "description": "Houston's commercial spaces need specialized demolition—we've cleared everything from Midtown restaurants to industrial warehouses near the Ship Channel.\n\nModern Houston office buildings often require phased demolition to avoid disrupting adjacent businesses. We use noise-dampening equipment in dense areas like the Medical Center. For strip-outs, we separate materials to maximize recycling rebates at Houston processing centers.\n\nAll projects include dust control measures critical for Houston's humidity. Our team knows which materials require special handling under Texas environmental regulations.",
+        "process": [
+          "Step 1: Houston business license verification",
+          "Step 2: Traffic control plan for urban sites",
+          "Step 3: Hazardous material survey (common in older Houston industrial sites)",
+          "Step 4: Demolition with daily debris removal"
+        ],
+        "benefits": [
+          "Minimizes business disruption in high-traffic areas",
+          "Maximizes recycling rebates for Houston businesses",
+          "Fully insured for urban demolition risks",
+          "Knows Houston's commercial zoning requirements"
+        ],
+        "faq": [
+          {
+            "question": "Can you demolish part of a Houston strip center?",
+            "Answer": "Yes—we use temporary barriers and work off-hours to minimize impact on neighboring businesses. Most retail demolitions complete in 72 hours."
+          }
+        ]
+      },
+      {
+        "slug": "concrete-removal",
+        "name": "Concrete Removal",
+        "shortDescription": "Driveway, patio, and foundation removal for Houston properties.",
+        "description": "Houston's extreme weather destroys concrete faster than most cities. We remove and replace damaged slabs with Texas-tough methods.\n\nSummer heat causes concrete to buckle—we use infrared scanning to identify weakened sections before removal. Winter freezes (though rare) create subsurface cracks; our team checks for hidden damage during demo.\n\nAll concrete gets crushed at our Houston-area facility for reuse as road base. We handle permitting for sidewalk replacements to meet City of Houston ADA standards.",
+        "process": [
+          "Step 1: Scan slab for hidden voids (common in Houston's expansive soil)",
+          "Step 2: Permitting for sidewalk/curb work",
+          "Step 3: Breakup with minimal vibration (protects Houston's shallow water lines)",
+          "Step 4: Haul to local recycling center"
+        ],
+        "benefits": [
+          "Prevents trip hazards on uneven Houston sidewalks",
+          "Rebate program for recycled materials",
+          "Knows Houston's concrete thickness requirements",
+          "Same-day removal in most cases"
+        ],
+        "faq": [
+          {
+            "question": "Why does Houston concrete fail so quickly?",
+            "Answer": "Our humidity causes rapid corrosion of rebar, while clay soil shifts undermine slabs. We install replacement concrete with Houston-specific reinforcement."
+          }
+        ]
+      },
+      {
+        "slug": "interior-demolition",
+        "name": "Interior Demolition",
+        "shortDescription": "Precision tear-outs for Houston renovations.",
+        "description": "Houston's humidity demands careful interior demolition—we prevent mold spread during kitchen/bath remodels.\n\nOlder homes in neighborhoods like Montrose often contain lead paint and plaster. Our containment systems exceed Houston health department standards. For condo remodels, we coordinate with building managers to meet high-rise disposal rules.\n\nWe salvage historic materials from Houston's 1920s-50s homes whenever possible. All debris leaves the site daily—critical for urban properties with limited storage space.",
+        "process": [
+          "Step 1: Hazardous material testing",
+          "Step 2: Containment system installation",
+          "Step 3: Selective demolition by hand",
+          "Step 4: Daily debris removal"
+        ],
+        "benefits": [
+          "Preserves historic Houston home features",
+          "Prevents cross-contamination in occupied homes",
+          "Works around Houston's common pier-and-beam foundations",
+          "Familiar with HOA renovation rules"
+        ],
+        "faq": [
+          {
+            "question": "How do you control dust in Houston homes?",
+            "Answer": "We use negative air machines with HEPA filters—essential for Houston's allergen-heavy environment. Plastic barriers contain every work area."
+          }
+        ]
+      },
+      {
+        "slug": "pool-removal",
+        "name": "Pool Removal",
+        "shortDescription": "Complete pool demolitions for Houston homeowners.",
+        "description": "Houston's high water table makes pool removal complex—we've filled 300+ pools across Harris County without drainage issues.\n\nVinyl-lined pools in The Woodlands require different removal than Houston's common gunite pools. We compact fill dirt in layers to prevent future settling in our clay soil. All permits include Harris County groundwater protection checks.\n\nOur process prevents mosquito breeding—a critical concern in Houston's humid climate. We leave your yard ready for landscaping or expansion.",
+        "process": [
+          "Step 1: Water drainage plan (varies by Houston neighborhood)",
+          "Step 2: Structural demolition",
+          "Step 3: Soil compaction testing",
+          "Step 4: Final grading"
+        ],
+        "benefits": [
+          "Prevents Houston's common pool collapse hazards",
+          "Proper disposal of chlorine/chemicals",
+          "Knows Houston's water table variations",
+          "No lingering debris"
+        ],
+        "faq": [
+          {
+            "question": "Why do Houston pools need special removal?",
+            "Answer": "Our high water table can float empty pools out of the ground. We drill relief holes and use dense fill materials to prevent this."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Residential Demolition",
+        "text": "Legacy tore down our flood-damaged Meyerland home fast. They knew exactly how to handle the mold issues from Houston humidity and had the debris gone before the next rain.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Lisa R.",
+        "rating": 5,
+        "service": "Interior Demolition",
+        "text": "Our Montrose bungalow had layers of lead paint. The crew sealed off everything and even salvaged the original heart pine floors. Zero dust in the rest of the house—impressive for Houston's allergen season.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Carlos M.",
+        "rating": 5,
+        "service": "Concrete Removal",
+        "text": "They removed our buckled Katy driveway in one day and explained why Houston's soil caused the damage. The recycled concrete rebate was a nice bonus.",
+        "date": "2025-04-03"
+      },
+      {
+        "name": "Diane K.",
+        "rating": 5,
+        "service": "Commercial Demolition",
+        "text": "Legacy demolished our Midtown restaurant with zero disruption to neighboring businesses. Their dust control was essential with Houston health inspectors nearby.",
+        "date": "2025-02-18"
+      },
+      {
+        "name": "Marcus W.",
+        "rating": 5,
+        "service": "Pool Removal",
+        "text": "Our Woodlands pool was a safety hazard after the freeze. They filled it properly for our clay soil and even graded the yard for new landscaping. No drainage issues two seasons later.",
+        "date": "2025-05-09"
+      },
+      {
+        "name": "Sarah P.",
+        "rating": 5,
+        "service": "Residential Demolition",
+        "text": "They salvaged bricks from our 1950s Heights home for reuse and handled all the Houston permits while we dealt with insurance. The site was cleaner after demolition than before.",
+        "date": "2025-06-12"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Houston Demolition Contractors | Legacy Demolition TX",
+        "description": "Local demolition experts serving Houston since 2012. Residential & commercial teardowns with Houston-approved disposal methods. Call 555-DEM-RQ18."
+      },
+      "about": {
+        "title": "Houston Demolition Company | Our Texas Roots",
+        "description": "Born in Houston, built for Texas demolition challenges. Learn how we handle humidity, flooding, and Houston's unique building conditions."
+      },
+      "services": {
+        "title": "Houston Demolition Services | Full-City Coverage",
+        "description": "Complete demolition solutions for Houston homes and businesses. From pool removal to commercial strip-outs, we know Texas demolition."
+      },
+      "contact": {
+        "title": "Houston Demolition Quotes | Fast Local Response",
+        "description": "Need demolition in Houston? Get same-day estimates from our local team. Serving all Harris County neighborhoods with Texas-tough service."
+      },
+      "reviews": {
+        "title": "Houston Demolition Reviews | Real Texas Projects",
+        "description": "See what Houston homeowners and businesses say about our demolition work. Real projects from Montrose to The Woodlands."
+      },
+      "service-areas": {
+        "title": "Houston Demolition Areas | Serving Harris County",
+        "description": "Local demolition services across Houston neighborhoods. From Katy to League City, we know your area's specific requirements."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Sugar Land",
+        "slug": "sugar-land-tx",
+        "state": "TX",
+        "content": "Legacy Demolition proudly serves Sugar Land, TX, a thriving city known for its master-planned communities built primarily in the 1990s and 2000s. With a population of around 111,000, Sugar Land offers a mix of suburban charm and modern amenities. Our team specializes in residential and commercial demolition, ensuring safe and efficient removal of structures to make way for new developments or renovations. Given the hot, humid summers, we prioritize weather-resistant demolition techniques to minimize disruptions.",
+        "localContext": "Sugar Land features well-planned neighborhoods with lush landscaping and community-focused amenities.",
+        "nearbyAreas": [
+          "Missouri City",
+          "Stafford",
+          "Richmond"
+        ]
+      },
+      {
+        "city": "Katy",
+        "slug": "katy-tx",
+        "state": "TX",
+        "content": "Katy, TX, is a rapidly growing city with newer planned communities developed from the 2000s to the 2020s. With a population of approximately 21,000, Katy combines small-town charm with modern conveniences. Legacy Demolition provides expert demolition services tailored to Katy's expanding residential and commercial needs. The hot, humid climate requires careful planning, and our team ensures projects are completed efficiently while adhering to local regulations.",
+        "localContext": "Katy is known for its family-friendly neighborhoods and top-rated schools.",
+        "nearbyAreas": [
+          "Cypress",
+          "Fulshear",
+          "Brookshire"
+        ]
+      },
+      {
+        "city": "The Woodlands",
+        "slug": "the-woodlands-tx",
+        "state": "TX",
+        "content": "The Woodlands, TX, is a premier master-planned community with homes dating from the 1980s to the present. With a population of about 118,000, it offers a unique blend of natural beauty and urban sophistication. Legacy Demolition serves The Woodlands with precision, handling residential and commercial demolition projects with care. The hot, humid summers demand efficient scheduling, and our team ensures minimal disruption to the community's serene environment.",
+        "localContext": "The Woodlands is renowned for its tree-lined streets, parks, and upscale shopping districts.",
+        "nearbyAreas": [
+          "Spring",
+          "Conroe",
+          "Magnolia"
+        ]
+      },
+      {
+        "city": "Pearland",
+        "slug": "pearland-tx",
+        "state": "TX",
+        "content": "Pearland, TX, is a bustling suburban city with developments primarily from the 1990s and 2000s. Home to around 125,000 residents, Pearland offers a mix of affordability and convenience. Legacy Demolition provides reliable demolition services to support Pearland's growth, whether for residential upgrades or commercial expansions. The hot, humid climate requires adaptable strategies, and our team delivers results while prioritizing safety and efficiency.",
+        "localContext": "Pearland is a fast-growing community with easy access to Houston and coastal areas.",
+        "nearbyAreas": [
+          "Friendswood",
+          "Alvin",
+          "Manvel"
+        ]
+      },
+      {
+        "city": "League City",
+        "slug": "league-city-tx",
+        "state": "TX",
+        "content": "League City, TX, is a rapidly expanding city with newer developments from the 2000s onward. With a population of approximately 115,000, it offers a coastal suburban lifestyle. Legacy Demolition serves League City with expertise in residential and commercial demolition, helping property owners prepare for new construction. The hot, humid summers necessitate careful project planning, and our team ensures timely completion while maintaining high standards.",
+        "localContext": "League City boasts waterfront properties and a thriving local economy.",
+        "nearbyAreas": [
+          "Dickinson",
+          "Kemah",
+          "Webster"
+        ]
+      },
+      {
+        "city": "Missouri City",
+        "slug": "missouri-city-tx",
+        "state": "TX",
+        "content": "Missouri City, TX, is a diverse suburban community with a mix of older and newer homes. Legacy Demolition provides tailored demolition services to meet the needs of this growing area. With hot, humid summers, our team adapts to weather conditions to ensure projects stay on track. Whether for residential or commercial purposes, we deliver efficient and safe demolition solutions.",
+        "localContext": "Missouri City offers a blend of affordability and proximity to Houston.",
+        "nearbyAreas": [
+          "Stafford",
+          "Sienna Plantation",
+          "Fresno"
+        ]
+      },
+      {
+        "city": "Conroe",
+        "slug": "conroe-tx",
+        "state": "TX",
+        "content": "Conroe, TX, is a rapidly growing city north of Houston, known for its lakes and outdoor recreation. Legacy Demolition serves Conroe with expert demolition services for both residential and commercial projects. The hot, humid climate requires careful planning, and our team ensures projects are completed efficiently. Whether clearing land for new developments or removing outdated structures, we provide reliable solutions.",
+        "localContext": "Conroe is a hub for nature lovers and expanding businesses.",
+        "nearbyAreas": [
+          "The Woodlands",
+          "Montgomery",
+          "Willis"
+        ]
+      },
+      {
+        "city": "Friendswood",
+        "slug": "friendswood-tx",
+        "state": "TX",
+        "content": "Friendswood, TX, is a charming suburban city with a mix of historic and modern homes. Legacy Demolition offers precise demolition services to support Friendswood's growth. The hot, humid summers demand adaptable strategies, and our team ensures projects are completed safely and on schedule. From residential teardowns to commercial site prep, we handle every project with care.",
+        "localContext": "Friendswood is known for its strong community spirit and excellent schools.",
+        "nearbyAreas": [
+          "Pearland",
+          "League City",
+          "Webster"
+        ]
+      },
+      {
+        "city": "Cypress",
+        "slug": "cypress-tx",
+        "state": "TX",
+        "content": "Cypress, TX, is a rapidly growing area with expansive suburban developments. Legacy Demolition provides expert demolition services to support Cypress's booming real estate market. The hot, humid climate requires efficient project management, and our team ensures timely completion. Whether for residential or commercial projects, we deliver top-notch demolition solutions.",
+        "localContext": "Cypress offers spacious neighborhoods and access to top-rated schools.",
+        "nearbyAreas": [
+          "Katy",
+          "Tomball",
+          "Spring"
+        ]
+      },
+      {
+        "city": "Spring",
+        "slug": "spring-tx",
+        "state": "TX",
+        "content": "Spring, TX, is a thriving community with a mix of older and newer subdivisions. Legacy Demolition serves Spring with reliable demolition services for residential and commercial properties. The hot, humid summers necessitate careful planning, and our team ensures projects are completed efficiently. From single-family homes to large-scale developments, we provide tailored solutions.",
+        "localContext": "Spring is a family-friendly area with easy access to Houston.",
+        "nearbyAreas": [
+          "The Woodlands",
+          "Tomball",
+          "Conroe"
+        ]
+      },
+      {
+        "city": "Tomball",
+        "slug": "tomball-tx",
+        "state": "TX",
+        "content": "Tomball, TX, is a historic yet rapidly growing city with a small-town feel. Legacy Demolition offers expert demolition services to support Tomball's expansion. The hot, humid climate requires adaptable strategies, and our team ensures projects are completed safely and efficiently. Whether for residential or commercial needs, we deliver dependable results.",
+        "localContext": "Tomball combines historic charm with modern growth.",
+        "nearbyAreas": [
+          "Spring",
+          "Cypress",
+          "Magnolia"
+        ]
+      },
+      {
+        "city": "Magnolia",
+        "slug": "magnolia-tx",
+        "state": "TX",
+        "content": "Magnolia, TX, is a growing community known for its rural charm and new developments. Legacy Demolition provides tailored demolition services to meet Magnolia's evolving needs. The hot, humid summers demand careful project planning, and our team ensures timely completion. From residential teardowns to commercial site prep, we handle every project with precision.",
+        "localContext": "Magnolia offers a peaceful lifestyle with easy access to urban amenities.",
+        "nearbyAreas": [
+          "The Woodlands",
+          "Tomball",
+          "Conroe"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "residential-demolition": "/images/service-residential-demolition.webp",
+      "commercial-demolition": "/images/service-commercial-demolition.webp",
+      "concrete-removal": "/images/service-concrete-removal.webp",
+      "interior-demolition": "/images/service-interior-demolition.webp",
+      "pool-removal": "/images/service-pool-removal.webp"
+    },
+    "servicesResponsive": {
+      "residential-demolition": {
+        "src": "/images/service-residential-demolition.webp",
+        "srcset": "/images/service-residential-demolition-400w.webp 400w, /images/service-residential-demolition-800w.webp 800w, /images/service-residential-demolition-1200w.webp 1200w, /images/service-residential-demolition.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-demolition": {
+        "src": "/images/service-commercial-demolition.webp",
+        "srcset": "/images/service-commercial-demolition-400w.webp 400w, /images/service-commercial-demolition-800w.webp 800w, /images/service-commercial-demolition-1200w.webp 1200w, /images/service-commercial-demolition.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "concrete-removal": {
+        "src": "/images/service-concrete-removal.webp",
+        "srcset": "/images/service-concrete-removal-400w.webp 400w, /images/service-concrete-removal-800w.webp 800w, /images/service-concrete-removal-1200w.webp 1200w, /images/service-concrete-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "interior-demolition": {
+        "src": "/images/service-interior-demolition.webp",
+        "srcset": "/images/service-interior-demolition-400w.webp 400w, /images/service-interior-demolition-800w.webp 800w, /images/service-interior-demolition-1200w.webp 1200w, /images/service-interior-demolition.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pool-removal": {
+        "src": "/images/service-pool-removal.webp",
+        "srcset": "/images/service-pool-removal-400w.webp 400w, /images/service-pool-removal-800w.webp 800w, /images/service-pool-removal-1200w.webp 1200w, /images/service-pool-removal.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
